@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  body.dark .modal-content {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  body.dark .btn-close {
+    filter: invert(1);
+  }
