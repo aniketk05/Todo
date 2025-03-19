@@ -130,7 +130,7 @@ const Todo = () => {
           placeholder="Title"
           className="w-full p-3 mb-4 rounded-2xl border-2 border-purple-300 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-200"
         />
-        <input
+        <textarea
           type="text"
           name="description"
           value={todo.description}
